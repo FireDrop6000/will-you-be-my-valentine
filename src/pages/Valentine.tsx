@@ -5,7 +5,7 @@ const Valentine = () => {
 	const moments = [
 		{
 			image: "/assets/valentine-1.gif",
-			title: "Today is",
+			title: "FINALLY today is",
 			subtitle: "Valentine's Day",
 			text: "So...",
 			subtext: "Pakhi baby? Will you be my Valentine? 🥺",
