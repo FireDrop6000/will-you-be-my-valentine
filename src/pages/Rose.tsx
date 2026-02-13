@@ -3,12 +3,12 @@ import { Link } from "react-router-dom";
 const Rose = () => {
 	return (
 		<div
-			className="h-screen w-screen bg-center bg-cover bg-no-repeat overflow-hidden"
+			className="h-screen w-screen bg-center bg-cover bg-no-repeat overflow-y-auto"
 			style={{
 				backgroundImage: "url('/assets/petals.gif')",
 			}}
 		>
-			<div className="absolute inset-0 flex items-center justify-center">
+			<div className="py-5 flex justify-center">
 				<div className="w-[90vw] max-w-xl p-10 bg-white border border-red-600 rounded-lg flex flex-col gap-4 justify-center items-center">
 					<img src="/assets/rose.jpeg" width={250} height={250} />
 					<p className="text-red-600 font-semibold text-3xl text-center">
