@@ -12,7 +12,7 @@ const Kiss = () => {
 				<div className="w-[90vw] max-w-xl p-10 bg-white border border-pink-600 rounded-lg flex flex-col gap-4 justify-center items-center">
 					<img src="/assets/kiss.gif" width={250} height={250} />
 					<p className="text-pink-600 font-semibold text-2xl text-center">
-						Sixth was
+						Seventh was
 					</p>
 					<p
 						style={{ fontFamily: "LucySaidOK" }}
